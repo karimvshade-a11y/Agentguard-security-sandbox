@@ -108,7 +108,7 @@ def call_gemini(prompt, api_key):
     try:
         genai.configure(api_key=api_key)
         # Using a model that is likely to be available long-term for enterprise
-        model = genai.GenerativeModel('gemini-1.5-pro')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(prompt)
         return response.text
     except Exception as e:
