@@ -1,0 +1,5 @@
+{
+  "name": "AgentGuard Security Sandbox",
+  "description": "A secure gateway for interacting with AI agents, featuring a PII redaction layer and a comprehensive audit trail to monitor interactions.",
+  "requestFramePermissions": []
+}
